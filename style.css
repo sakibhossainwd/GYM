@@ -1,0 +1,248 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.8s;
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: black;
+    color: white;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 8%;
+}
+.menu-item{
+    display: flex;
+    margin-right: 150px;
+}
+.menu-item li{
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu-item li:hover{
+    color: #ed1a22;
+    transition: .5s;
+}
+/* Banner par start from here */
+.banner{
+    background-color: black;
+    color: white;
+}
+.banner-container{
+    display: flex;
+}
+.banner-description{
+    width: 40%;
+    margin-left: 5%;
+    padding: 3%;
+    margin-top: 3%;
+}
+.banner-description h3{
+    color: #ed1a22;
+    
+}
+.banner-description h1{
+    font-size: 4vw;
+    margin-bottom: -3%;
+    margin-top: -3%;
+}
+.btn{
+    background: #ed1a22;
+    color: white;
+    padding: 3% 5% 3% 5%;
+    font-size: 1vw;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+}
+.btn:hover{
+    background: #0000ff;
+    transition: .5s;
+}
+.banner-img{
+    width: 40%;
+    margin-left: 10%;
+    padding: 3% 3% 4% 3%;
+}
+
+/* card part start from here */
+.card-part h1{
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: -5%;
+}
+.card-area{
+    padding: 10%;
+    display: flex;
+}
+.card{
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    padding: 2%;
+    margin-left: 7%;
+    box-shadow: 5px 8px 15px rgb(198, 198, 198);
+    border-radius: 5px;
+}
+/* .card:hover{
+    scale: 1.1;
+    transition: .5s;
+} */
+.card:hover{
+    margin-top: -20px;
+    border: 1px solid red;
+    transition: 0.5s;
+}
+.card img{
+    width: 20%;
+}
+.card p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+/* About part start form here */
+
+
+.about-part{
+    background-color: black;
+    color: white;
+}
+.about-h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.about-content{
+    display: flex;
+    margin-left: 10%;
+    padding: 2%;
+    
+}
+.about-img{
+    display: flex;
+    padding: 5px;
+    width: 40%;
+    border-top: 2px solid white;
+}
+.about-img img{
+    width: 70%;
+    transform: skewY(-15deg);
+}
+.about-description{
+    width: 40%;
+    margin-left: 5%;
+    border-top: 2px solid red;
+}
+
+/* Color box start from here */
+.color-box{
+   background-image: url(./images/shape/Group_33094_1.png);
+   background-repeat: no-repeat;
+   background-position:  center;
+   background-size: cover;
+   width: 40%;
+   padding: 3%;
+   margin: auto;
+   margin-top: 4%;
+   margin-bottom: 5%;
+   border-radius: 10px;
+
+}
+.box-content{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.box-h1{
+    font-size: 40px;
+}
+.box-btn{
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-color: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.box-btn:hover{
+    background-color: blue;
+    color: white;
+    transition: .5s;
+
+}
+
+/* Service part start from here */
+.service-part{
+    margin-bottom: 15%;
+}
+.service{
+    display: flex;
+    margin-left: 0%;
+    justify-content: center;
+    
+}
+.service-container{
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px gray;
+    width: 20%;
+}
+.service-container img{
+    height: 290px;
+    width: 381px;
+    border-radius: 5px 5px 0px 0px;
+}
+.service-description h1{
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: -4%;
+    margin-bottom: -4%;
+}
+.service-text{
+    padding: 3%; 
+}
+.service-price{
+    display: flex;
+    justify-content: space-between;
+}
+.red{
+    color: red;
+}
+.service-1{
+    margin-right:5% ;
+}
+.service-2{
+    margin-right: 5%;
+}
+.batch{
+    position: relative;
+}
+.batch img{
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    margin-left: 346px;
+    margin-top: -28px;
+}
+
+/* footer part start from here */
+
+.fotter-decription{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.social-link a{
+    padding: 1%;
+    text-decoration: none;
+    font-weight: 700;
+}
+
